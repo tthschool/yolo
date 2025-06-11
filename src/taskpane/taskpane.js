@@ -12,11 +12,13 @@ Office.onReady(info => {
     btn.addEventListener("click", () => {
       console.log("clicked");
     });
+    document.getElementById("run").onclick = run;
+
   }
 });
 
 
-export async function run() {
+async function run() {
   /**
    * Insert your Outlook code here
    */
