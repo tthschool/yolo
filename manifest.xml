@@ -8,7 +8,7 @@
   <Description DefaultValue="A template to get started."/>
   <IconUrl DefaultValue="https://tthschool.github.io/yolo/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://tthschool.github.io/yolo/assets/icon-32.png"/>
-  <SupportUrl DefaultValue="https://tthschool.github.io/yolo/taskpane/src/taskpane.html"/>
+  <SupportUrl DefaultValue="https://tthschool.github.io/yolo/src/taskpane/taskpane.html"/>
   <AppDomains>
     <AppDomain>https://www.contoso.com</AppDomain>
   </AppDomains>
