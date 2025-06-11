@@ -15,5 +15,5 @@ Office.onReady(info => {
 
 async function run() {
   const item = Office.context.mailbox.item;
-  console.log("jello");
+  console.log(item);
 }
