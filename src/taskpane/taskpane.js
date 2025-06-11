@@ -5,17 +5,13 @@
 
 /* global document, Office */
 
-Office.onReady((info) => {
+Office.onReady(info => {
   if (info.host === Office.HostType.Outlook) {
-    document.getElementById("sideload-msg").style.display = "none";
-    document.getElementById("app-body").style.display = "flex";
-    document.getElementById("run").onclick = run;
+    const btn = document.querySelector("#btn");
+    btn.addEventListener("click", () => {
+      console.log("clicked");
+    });
   }
-  let btn = document.querySelector("#btn")
-  btn.addEventListener('click', () => {
-    console.log("ddd");
-    
-  })
 });
 
 
