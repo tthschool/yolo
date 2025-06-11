@@ -2,14 +2,10 @@
 
 Office.onReady(info => {
   if (info.host === Office.HostType.Outlook) {
-    console.log("Office.js is ready in Outlook");
-
-    const btn = document.querySelector("#btn");
-    if (btn) {
-      btn.addEventListener("click", () => run());
-    } else {
-      console.warn("Button not found!");
-    }
+   let btn  = document.querySelector('#btn')
+   btn.addEventListener('click' ,()=> {
+    console.log("jdjdjd");
+   })
   }
 });
 
