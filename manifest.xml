@@ -8,7 +8,7 @@
   <Description DefaultValue="A template to get started."/>
   <IconUrl DefaultValue="https://tthschool.github.io/yolo/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://tthschool.github.io/yolo/assets/icon-32.png"/>
-  <SupportUrl DefaultValue="https://tthschool.github.io/yolo/taskpane.html"/>
+  <SupportUrl DefaultValue="https://tthschool.github.io/yolo/taskpane/taskpane.html"/>
   <AppDomains>
     <AppDomain>https://www.contoso.com</AppDomain>
   </AppDomains>
@@ -23,7 +23,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://tthschool.github.io/yolo/src/taskpane.html"/>
+        <SourceLocation DefaultValue="https://tthschool.github.io/yolo/src/taskpane/taskpane.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -90,8 +90,8 @@
         <bt:Image id="Icon.80x80" DefaultValue="https://tthschool.github.io/yolo/assets/icon-32.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Commands.Url" DefaultValue="https://tthschool.github.io/yolo/src/commands.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://tthschool.github.io/yolo/src/taskpane.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://tthschool.github.io/yolo/src/commands/commands.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://tthschool.github.io/yolo/src/taskpane/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GroupLabel" DefaultValue="Contoso Add-in"/>
