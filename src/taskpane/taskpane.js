@@ -9,13 +9,7 @@ Office.onReady(info => {
   if (info.host === Office.HostType.Outlook) {
     console.log("dajskndlasjkndlkasndlk")
     const btn = document.querySelector("#btn");
-    // btn.addEventListener("click", () => {
-    //   console.log("clicked");
-          document.getElementById("run").onclick = run;
-    });
-
-
-  }
+    btn.addEventListener("click", () => run() )}
 });
 
 
