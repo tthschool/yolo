@@ -7,6 +7,7 @@
 
 Office.onReady(info => {
   if (info.host === Office.HostType.Outlook) {
+    console.log("dajskndlasjkndlkasndlk")
     const btn = document.querySelector("#btn");
     btn.addEventListener("click", () => {
       console.log("clicked");
@@ -24,3 +25,4 @@ export async function run() {
   console.log("jello");
   
 }
+    console.log("dajskndlasjkndlkasndlk")
